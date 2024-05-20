@@ -1,0 +1,46 @@
+body{
+    color: rgb(172, 35, 31);
+    background-image: url(./IMGs/d62817b3-1324-435c-94bd-e0e14cc51e7c.gif);
+    text-align: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+
+.contenedor2{
+ margin-top: 20px;
+  }
+  
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+  
+.caja {
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+}
+
+.start{
+    width: 150px;
+    height: 50px;
+}
+
+#hamster{
+    width: 400px;
+    margin-bottom: -500px;
+    margin-right: 800px;
+}
+
+#kitty{
+    width: 380px;
+    margin-bottom: -500px;
+    margin-left: 800px;
+}
+
+#msj{
+    margin-left: -800px;
+
+}
