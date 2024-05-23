@@ -39,7 +39,8 @@ start.addEventListener("click", function () {
     caja[index].innerHTML= "";//elimina todo en las cajas
     texto.innerHTML = 'comienza ⭐';
     estado = 'juego'
-}});
+}
+});
 
 function ganes() {
   if (caja[0].innerHTML == "⭐" && caja[4].innerHTML == "⭐" && caja[8].innerHTML == "⭐") {
