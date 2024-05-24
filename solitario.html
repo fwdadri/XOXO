@@ -10,12 +10,14 @@
   <link rel="stylesheet" href="principal.css">
 </head> 
 <body>
-<nav>
+  <header>
 
-     <h1>🍓FresasVSEstrellas⭐</h1>
-     <a href="principal.html"><button> Modo Compañia <br>🍓</button></a>
-     <button id="start">volver a Jugar</button>
-</nav>
+    <a href="principal.html"><button onclick="alone" id="alone">Modo Compañia<br>⭐</button></a>
+      <button id="start">volver a Jugar🍓</button>
+      <div id="titulo"><h1>Fresas VS Estrellas</h1>
+      <img id="estrella" src="./download (4).gif" alt=""><div>  
+  
+  </header>
 
 <img id="hamster" src="./imgs/download (3).gif">
 <img id="kitty" src="./imgs/Mangas Yaoi  - Emil & Mickey ❤ Relación.gif" alt="">
@@ -23,11 +25,11 @@
 
 
   <div class="contenedor2">
-    <h2 class="msj">Empienza ⭐ </h2>
+    <h2 class="msj" id="mensaje">Empienza ⭐ </h2>
     <div class="contenedor">
       <div class="caja" style="border-bottom: 5px solid rgb(255, 102, 255); border-right: 5px solid rgb(255, 102, 255);"></div>
       <div class="caja" style="border-bottom: 5px solid rgb(255, 102, 255); border-right: 5px solid rgb(255, 102, 255);"></div>
-      <div class="caja" style="bottom: 5px solid rgb(255, 102, 255);"></div>
+      <div class="caja" style="border-bottom: 5px solid rgb(255, 102, 255);"></div>
       <div class="caja" style="border-right: 5px solid rgb(255, 102, 255);"></div>
       <div class="caja"></div>
       <div class="caja" style="border-left: 5px solid rgb(255, 102, 255);"></div>
@@ -39,6 +41,15 @@
   </div>
 
   <script src="./solitario.js"></script>
+
+  <audio controls muted id="music">
+    <source src="./music/Y2meta.app - Tatarka - KAWAII (sped up) (128 kbps).mp3">
+    </audio>
+  <footer>
+    Made by Adriana </br>
+    2024 </br>
+    Derechos reservados
+</footer>
 </body>
 
 </html>
