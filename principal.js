@@ -1,5 +1,5 @@
 let caja = document.querySelectorAll('.caja');
-let start = document.querySelector(".start");
+let start = document.querySelector("#start");
 let jugador = "🍓";
 let texto = document.querySelector('.msj');
 let estado = 'juego'// el estado cambia con el gane, lo que hace que se impida seguir jugando
@@ -113,3 +113,13 @@ function ganes() {
     conteoFresa=0
   };
 };
+
+
+alone.onclick = function (){
+
+  alert ('modo solitario activado')  
+}
+
+
+
+
